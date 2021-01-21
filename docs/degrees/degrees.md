@@ -322,8 +322,159 @@ The options **Edit** and **Delete**, available on the rules of the Curricular Pl
 
 
 ### Create Unit
+It allows the introduction of curricular units in the Curricular Plans. In order to be able to associate a unit to a Curricular Plan it has to already been created in the Department and be Approved by the Scientific Council. Detailed information about the curricular units creation and management can be found on the module about curricular units.
 
+To associate curricular units in the Curricular Plan, go to the wanted Curricular Plan management and click Create Unit, on the group in which you want to put it, as the image shows:
+
+![](./assets/dd27.png)
+
+
+On the next page you have to fill in the information regarding the curricular unit and about its execution context (group, curricular year, semester, start and end period). There are two types of curricular units that can be associated to the Curricular Plan:
+
++ **Regular Curricular Units** - It's the Curricular Units that exist on the Departments (Competence Courses).
++ **Free Choice Curricular Units** - It's a kind of slots that are created in the Curricular Plan which are replaced by regular Curricular Units, that usually are being offered in other Curricular Plans.
+
+![](./assets/dd28.png)
+
+After all the information is filled in click Create. In the previous example, of image above, it was added a curricular unit of the Mathematics Department (Complex Analysis). The context of execution of the curricular unit it will be on the group **Formation 1**, 1st Year/1st Semester begining on 1st Semester 2013/2014. You can see on image 2.2.4.3 the added curricular unit.
+
+![](./assets/dd29.png)
+
+
+When you have a Free Option type, the information to fill in, besides the context, is the name that you want to give to the curricular unit.
+
+The images bellow show the process:
+
+![](./assets/dd30.png)
+
+![](./assets/dd31.png)
+
+The curricular units of the type Free Option, as mentioned before, allow the Student, in the enrolment period, to choose a curricular unit from another Curricular Plan (depending upon the existing rules).
+
+
+
+The available operations on the curricular units are:
+
+ 
+
++ Edit
+  
+Allows to change all the information of the curricular unit (regular or option). The system allows to change the curricular unit itself (in the regular case).
+
++ **Add new context** - The curricular units can have more than one active context (curricular year/semester).
+When you Edit a curricular unit you can add more contexts by clicking Add new context and fill in the information for that context, and then click Add, like shown on image:
+
+![](./assets/dd32.png)
+
+In the previous example it was created a new context in the curricular unit PhD Option in the Formation 1 group, on the 1st Year/1st Semester, and it shows like image:
+
+![](./assets/dd33.png)
+
++ Delete
+  
+The curricular units can be deleted (removed from the Curricular Plan) if they haven't any associated information (like enrolled students).
 
 ### Approve Curricular Plan on Scientific Council
-#### Create Degree Unit in the Organizational on Administrator
+
+After the Curricular Plan is fully built, at the level of the structure (groups), rules and curricular units, the next step is to Approve the Curricular Plan.
+
+ 
+
+The Curricular Plan can only be made public after it is in the Approved state and all actions can only be done after that too (add a Coordination team, set the Curricular Plan in execution, add the degree to the organizational structure units, etc).
+
+ 
+
+To Approve the Curricular Plan go to Scientific Council and click on Degrees and Curricular Plans. Then click on Edit on the correspondent Curricular Plan to Approve, like shown on image:
+
+![](./assets/dd34.png)
+
+Change the state from **Construction** to **Approved** and the Execution Begin to the Academic Year from which you can start creating Curricular Plan Executions, and click Submit.
+
+ 
+
+The Approved state can not be change through the Scientific Council. If it's necessary to change the state of an Approved Curricular Plan, it will have to be done through the Administrator Portal, and it is only possible to do before the Curricular Plan is in execution. The images below ilustrate the change of state.
+
+![](./assets/dd35.png)
+
+![](./assets/dd36.png)
+
+
+
+#### **Create Degree Unit in the Organizational on Administrator**
+
+
+The new degrees have to be created in the Organizational Structure of FenixEdu.
+
+ 
+
+To create a new Degree in the Organizational Structure and associate that Degree to the correspondent one Approved by the Scientific Council, go to **Administrator** portal and click on **Unit and Position Management**.
+
+ 
+
+On the structure navigate to:
+
+**Earth>[your school country] > [your university] > [your school]|.**
+
+ 
+
+To create a new Unit (of the selected type), click on Create Sub-Unit.
+
+![](./assets/dd37.png)
+
+In the example given on image above, a Sub-Unit is created in the Specialization Degrees Unit. In this types of Units it's fundamental that the following fields are correctly filled in:
+
++ **Type** - Degree
++ **Associated Bachelor/Masters** - The Degree you want to associate to the Unit
++ **Relation Type** - Academic Structure
+
+To finish click on **Create Unit**.
+
+ 
+
+On the Sub-Units list of the Specialization Degress unit, there's now the FenixEdu unit, like shown on image:
+
+![](./assets/dd38.png)
+
+
+On the degrees list there is now the Specialization Degree FenixEdu, as shown below on image:
+
+![](./assets/dd39.png)
+
+All units of the type Degree have a webpage, managed by the Coordination team. You can see the page on the image:
+
+![](./assets/dd40.png)
+
+
+
+
 ### Create Execution Curricula on Administrator
+
+
+The creation of Execution Curricula is done by Academic Year. All the Curricular Plans that are going to be active in the given Academic Year are put in execution mode.
+
+ 
+
+After this operation the school periods, exams periods and marksheets afixation periods become defined and it will be possible to add people to the Coordination Teams.
+
+ 
+
+To create Execution Curricula, go to Administrator portal and click on Execution Curricula and then click on Create Execution Curricula, as in Image:
+
+![](./assets/dd41.png)
+
+On the next page click on the Degree Type you want and then on Continue, as in Image:
+
+
+![](./assets/dd43.png)
+
+
+Select the Curricular Plans you want to put in execution, and fill in the data regarding the Execution Year and the periods of schools, exames and marksheets afixation (for the 1st and 2nd semesters and Special Season).
+
+ 
+
+To create the Execution Curriculum click on **Create**. After this operation the Curriculum is now on Execution in the given Academic Year, and all operations can be done over it (Candidacies, Coordination Team, Tuition Payment Plan, etc). The image shows what data to fill.
+
+![](./assets/dd44.png)
+
+After this operation the curriculum is available in execution for that curricular year, and all the operations (candidacies, coordination, enrolments, tuition) became available.
+
