@@ -1,4 +1,4 @@
-## [Courses](./courses.md)
+# [Courses](./courses.md)
 
 + Competence Course
   + Creating Competence Courses
@@ -32,20 +32,20 @@
 In FenixEdu the courses are represented in three types. We will describe the various types of existing courses, which information is stored and managed in each of these types and the relationship between the various courses:
 
 
-+ Competence Courses - Are the basis of information relating to curricular units. The management of these courses is the responsibility of the Department where it belongs (competence courses can only belong to a single department). The information in a racing discipline is:
++ **Competence Courses** - Are the basis of information relating to curricular units. The management of these courses is the responsibility of the Department where it belongs (competence courses can only belong to a single department). The information in a racing discipline is:
     + Workload
     + Credits
     + Objectives
     + Program
     + Evaluation Method
     + Base Bibliography (Primary e Secundary)
-+ Curricular Courses – This is the association between a \emph{Competence Course} and a \emph{Curricular Plan}. For a Course to used in a Curricular Plan, it must be approved before. The year and semester where this curricular plan is offered is determernined by the curricular plan. This contains the following information.
++ **Curricular Courses** – This is the association between a \emph{Competence Course} and a \emph{Curricular Plan}. For a Course to used in a Curricular Plan, it must be approved before. The year and semester where this curricular plan is offered is determernined by the curricular plan. This contains the following information.
     + Group
     + Curricular Year
     + Semester
     + Beginning
     + End
-+  Execution Courses - This is the association between the academic year and semester in which the \emph{Curricular Courses} was in operation. You can only create execution courses when the Curriculum Plan where they are located is also running. The information contained in execution is a discipline as follows:
++  **Execution Courses** - This is the association between the academic year and semester in which the \emph{Curricular Courses} was in operation. You can only create execution courses when the Curriculum Plan where they are located is also running. The information contained in execution is a discipline as follows:
     + Course Site
     + Schedule
     + Summaries
@@ -54,12 +54,12 @@ In FenixEdu the courses are represented in three types. We will describe the var
 ![](./assets/courseDiag.png)
 
 
-### Competence Course
+## Competence Course
 
 The responsibility to manage courses belongs to the Departments (creating courses or new versions of them) and the Scientific Council (Approving new competence courses and their versions). As mentioned before they are basis for creating curricular units, and only after being approved can they be used in curricular plans.
 
 
-#### Creating Competence Courses
+### Creating Competence Courses
 
 Before you can create competence courses you need to have authorization to do so. This is granted in **Secretaria do Departamento> “Grupos de Gestão “> Disciplinas Competência**.
 
@@ -68,7 +68,7 @@ Before you can create competence courses you need to have authorization to do so
 To create a competence course, go to **Bolonha > Disciplinas Competência > Consultar**. It should appear the existent competence courses of that department. Each course is attached to a **Scientific Area**, and a **Scientific Area** is composed of **Competence Course Groups**. Click in **Criar Disciplina** on the **Scientific Area/Competence Course Group** you want to create a course. It takes 3 steps.
 
 
-##### **Step One: Creating the Competence Course**
+#### **Step One: Creating the Competence Course**
 
 
 Fill the academic year and semester, from which the course starts being available on the system, the name (in PT and EN), the level (First Cycle, Second Cycle, etc.) and the type of course (Normal or Dissertation) like shown in Image:
@@ -79,14 +79,14 @@ Click **Create** and move to the second step.
 
 ![](./assets/cc1.png)
 
-##### **Step Two: Defining Workload**
+#### **Step Two: Defining Workload**
  
 
 On this screen fill the information relative to the workload (Theorical,Problems, etc.) and the ECTS. After filling this form, click **Submit** and move to the next step.
 
 ![](./assets/cc2.png)
 
-##### **Step Three: Define Objectives Program and Methodology**
+#### **Step Three: Define Objectives Program and Methodology**
  
 
 Fill with information regarding objectives, program and methodology for this competence course.
@@ -103,7 +103,7 @@ After adding the coures it should appear within the department competence course
 ![](./assets/cc3.png)
 
 
-#### Managing Competence Courses
+### Managing Competence Courses
  
 
 A competence course can be in one of two states:
@@ -130,7 +130,7 @@ To add bibliografic references, click **Insert Bibliografic Reference** and fill
 ![](./assets/cc5.png)
 
 
-#### Publishing Competence Courses
+### Publishing Competence Courses
  
 
 When all the information for a new competence course has been added, you need to published it for it to be avaible on the Scientific Council so that it can be approved.
@@ -141,7 +141,7 @@ Edit the course, and next edit the state information as shown on Image:
 
 ![](./assets/cc6.png)
 
-#### Approve Competence Courses
+### Approve Competence Courses
  
 To approve competence courses you should go to **Portal do Conselho Científico> “Processo de Bolonha”> Disciplinas Competência** and select the department you want to approve competence courses.
 
@@ -157,7 +157,7 @@ In Scientific Council you can do the following following actions:
    + **Transfer** - Transfer a competence course to another Department, Scientific Area or Competence Course Group.
    + **Unprove** - Revert the competence course from **Approved** to **Published**.
 
-#### Competence Course Versions
+### Competence Course Versions
 Sometimes is necessary to make some corrections to curricular units. For instance changing the ECTS number from 6 to 4.5. Creating versions of a competence course is done in the Department where the course belongs. To make a new version go to **Disciplinas Competência > Gestão de Versões**. A list of the approved competence courses should appear like in Image:
 
 ![](./assets/cc10.png)
@@ -202,10 +202,10 @@ Sometimes you may need to do some correction (maybe ECTS, workload, bibliography
 A revision proposal stays in a pending state until approval is given by the Scientific Council.\\
 
 
-### Curricular Course
+## Curricular Course
 After approved, competence courses can be used in the construction of Curricular Plans. Curricular courses agregate several information about a course, for instance the curricular year and semester as well the curricular plan group it belongs.
 
-#### Create a Curricular Unit
+### Create a Curricular Unit
  
 
 To create curricular units in curricular plains, go to **Portal da Administração Académica> “Gestão da Estrutura de Ensino”**, click **Estrutura de Cursos** and then in the operation **Gerir Plano** for the curricular plan you want to change.
@@ -232,17 +232,17 @@ You can do the following operations over curricular units.
    + **Apagar** - Curricular units can be erased if they aren't associated with students.
 
 
-#### Associate a Curricular Unit
+### Associate a Curricular Unit
  
 
-Associate Unit allows that a curricular course can to be associated with more than one context. This allows for curricicular units to appear in differente semesters or years.
+**Associate Unit** allows that a curricular course can to be associated with more than one context. This allows for curricicular units to appear in differente semesters or years.
 
-To do this, Click Associate Unit and fill with information related to the group you want. Finally finally click Associate. A curricular unit associated to two different contexts is shown on Image:
+To do this, Click **Associate Unit** and fill with information related to the group you want. Finally finally click **Associate**. A curricular unit associated to two different contexts is shown on Image:
 
 ![](./assets/cc16.png)
 
 
-#### Defining Rules
+### Defining Rules
 Curricular units and groups can have rules that affect how students can enrol in them. Among other, you can set:
 
    + Requirements between curricular units.
@@ -257,7 +257,7 @@ To add a new rule, click **Define Rules**. Next on the group or curricular unit 
 
 **New Rule**
 
-Depending on the type of rule (group or curricular unit) you may have several options. In Image below we create a Exclusivity rule between the group **Formação Livre** and the group **Competencias Transversais**. This rule implies that students can only enrol in curricular units from one of the groups. The rules have a Validity associated so that rules can be inserted into different curricular plans.
+Depending on the type of rule (group or curricular unit) you may have several options. In Image below we create a Exclusivity rule between the group **Formação Livre** and the group **Competencias Transversais**. This rule implies that students can only enrol in curricular units from one of the groups. The rules have a **Validity** associated so that rules can be inserted into different curricular plans.
 
 ![](./assets/cc17.png)
 
@@ -273,7 +273,7 @@ You can also \textbf{**Edit** the begging or end of a validity and **Remove** th
 
 
 
-### Execution Courses
+## Execution Courses
 
 Creating execution courses is task that is done every semester (or every course period). For every Curricular unit that are avaible in active curricular plans there should be created a execution course. Execution courses are managed in **Portal Administração Académica > Gestão das Disciplinas de Execução**.
 
@@ -291,12 +291,12 @@ Execution courses have all the information from the competence courses (ECTS, pr
 ![](./assets/cc18.png)
 
 
-#### Creating Execution Courses
+### Creating Execution Courses
 
 The action **Criar Disciplinas de Execução** allows you to create all the execution courses corresponding to one or more courses in execution in that execution period (year/semester). First select he type of course and click **Continue**. Next select the execution period, the courses you want to create the execution courses and click **Create**. In the next page a message with the information about all the execution courses created should appear.
 
 
-#### Editing Execution Courses
+### Editing Execution Courses
 
 **Editar Disciplina Execução** allows to **Edit** (including association and separation of curricular courses) as well **Remove** for that execution period.  First select the degree type. Next select he execution degree and curricular year from the execution course you wish to edit. Click **Continue**. A list with all execution courses for that degree/curricular year should appear.
 
@@ -363,7 +363,7 @@ You can also see the emails sent within the context of a execution course. The m
 You can remove the execution course, only when there isn't any information associated with it (schedule, sumaries, announcements, etc.). To remove a execution course click in \textbf{Delete}. A confirmation should appear. Please keep in mind that this operation is irreversible.\\
 
 
-#### Join Execution Courses
+### Join Execution Courses
  
 
 This operation allows joining two execution coures into one, meaning all the information from a execution course (faculty, sumaries, annoucements, students, etc.) will be connected into a single execution course. You can only join execution coureses within the same execution period (year/semester). To join select execution coureses select the execution period, Origin degree and Destination Degree. Click **Continue**.
@@ -375,7 +375,7 @@ Next, select the origin execution course and the destiny execution coruse. and c
 ![](./assets/cc27.png)
 
 
-#### Add Execution Courses
+### Add Execution Courses
  
 
 This option allows to create execution courses manually, and later being associated with curricular coureses. Click **Add Execution Course**, set the execution period, name, and acronym. Click **Save**.
@@ -383,7 +383,7 @@ This option allows to create execution courses manually, and later being associa
 ![](./assets/cc28.png)
 
 
-To use the execution course, click in **Edit Execution** course and select the execution period. Check the option **Courses** **not associated with curriculums**. and click **Continue**. A list with execution courses not associated with curricular courses should appear. Next follow the instructions from to associate curricular courses.
+To use the execution course, click in **Edit Execution** course and select the execution period. Check the option **Courses not associated with curriculums**. and click **Continue**. A list with execution courses not associated with curricular courses should appear. Next follow the instructions from to associate curricular courses.
 
 ![](./assets/cc29.png)
 
